@@ -1,8 +1,8 @@
-name = "gcombinator-news"
+name = "hn-demo-simplerauth"
 main="./main.js"
 compatibility_date = "2025-06-26"
 dev.port = 3000
 routes = [
-  { pattern = "news.gcombinator.com", custom_domain = true }
+  { pattern = "hn-demo.simplerauth.com", custom_domain = true }
 ]
 assets.directory = "./"
